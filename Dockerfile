@@ -1,6 +1,6 @@
 FROM busybox
 ARG version=0.1
-LABEL maintainer=Carlos Giraldo <carlitosgiraldo@gmail.com>
+LABEL maintainer="Carlos Giraldo <carlitosgiraldo@gmail.com>"
 LABEL version=$version
 
 ENV WS_VERSION $version
